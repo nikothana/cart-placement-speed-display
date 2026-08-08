@@ -1,4 +1,4 @@
-# 🛒 Cart Placement Speed Display
+<center># 💣 Cart Placement Speed Display</center>
 
 ![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21%2B-brightgreen)
 ![Fabric API](https://img.shields.io/badge/Mod%20Loader-Fabric-blue)

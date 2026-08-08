@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cart-placement-speed-display",
+	"version": "${version}",
+	"name": "Cart Placement Speed Display",
+	"description": "This mod shows how fast you can Crossbow CartPVP in frames.",
+	"authors": [
+		"§5nikothana ✿"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cart-placement-speed-display/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cartdisplay.net.CartPlacementSpeedDisplay"
+		],
+		"fabric-datagen": [
+			"cartdisplay.net.CartPlacementSpeedDisplayDataGenerator"
+		],
+		"client": [
+			"cartdisplay.net.CartPlacementSpeedDisplayClient"
+		],
+		"modmenu": [
+			"cartdisplay.net.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"cart-placement-speed-display.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

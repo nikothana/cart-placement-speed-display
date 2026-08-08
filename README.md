@@ -1,10 +1,14 @@
-# <center>  💣 Cart Placement Speed Display </center>
+<div align="center">
+
+# 💣 Cart Placement Speed Display
 
 ![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21%2B-brightgreen)
 ![Fabric API](https://img.shields.io/badge/Mod%20Loader-Fabric-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 A lightweight Minecraft Fabric mod designed for **Crossbow CartPVP** enthusiasts. It tracks and displays your frame timing directly on your action bar with customizable gradient colors.
+
+</div>
 
 ---
 
@@ -17,7 +21,7 @@ A lightweight Minecraft Fabric mod designed for **Crossbow CartPVP** enthusiasts
 
 ---
 
-## 📸 Screenshots & Usage
+## 📝 Usage
 
 Once enabled, perform your CartPVP sequence:
 1. Place a **Rail**

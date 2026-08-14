@@ -61,6 +61,10 @@ public class CartPlacementSpeedDisplayClient implements ClientModInitializer {
                 Long framesElapsed = TRACKER.onCrossbowShot(currentTick);
 
                 if (framesElapsed != null) {
+                    // Record stats into Mod Menu integration
+                    ModMenuIntegration.STATS.recordCombo(framesElapsed);
+
+                    // Render action bar output
                     CartPVPTracker.displayActionBar(player, framesElapsed);
                 }
             }

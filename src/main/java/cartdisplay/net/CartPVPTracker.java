@@ -82,7 +82,7 @@ public class CartPVPTracker {
             int length = frameString.length();
 
             for (int i = 0; i < length; i++) {
-                float ratio = (float) i / (length - 1);
+                float ratio = (length > 1) ? (float) i / (length - 1) : 0;
 
                 int r = (int) (startR + ratio * (endR - startR));
                 int g = (int) (startG + ratio * (endG - startG));
